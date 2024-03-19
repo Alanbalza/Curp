@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario para Calcular RFC</title>
+</head>
+<body>
+
+  <h1>Formulario para Calcular RFC: por tu padre </h1>
+<!-- 
+  <form action="calcular-rfc.php" method="POST" target="_blank">
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <label for="paterno">Apellido Paterno</label>
+          </td>
+          <td>
+            <input type="text" name="paterno" id="paterno" placeholder="Pérez">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="materno">Apellido Materno</label>
+          </td>
+          <td>
+            <input type="text" name="materno" id="materno" placeholder="García">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="nombre">Nombre (s)</label>
+          </td>
+          <td>
+            <input type="text" name="nombre" id="nombre" placeholder="Juan">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="dia">Fecha de nacimiento (dd/mm/aaaa)</label>
+          </td>
+          <td>
+            <select name="dia">
+              <?php
+                for ($i = 1; $i <= 31; $i++) {
+                  echo "<option value=\"$i\">$i</option>";
+                }
+              ?>
+            </select>
+
+            <select name="mes">
+              <option value="1">Enero</option>
+              <option value="2">Febrero</option>
+              <option value="3">Marzo</option>
+              <option value="4">Abril</option>
+              <option value="5">Mayo</option>
+              <option value="6">Junio</option>
+              <option value="7">Julio</option>
+              <option value="8">Agosto</option>
+              <option value="9">Septiembre</option>
+              <option value="10">Octubre</option>
+              <option value="11">Noviembre</option>
+              <option value="12">Diciembre</option>
+            </select>
+
+            <select name="anno">
+              <?php
+                for ($i = 1901; $i <= date("Y"); $i++) {
+                  echo "<option value=\"$i\">$i</option>";
+                }
+              ?>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="sexo">Sexo</label>
+          </td>
+          <td>
+            <select name="sexo">
+              <option value="H">Hombre</option>
+              <option value="M">Mujer</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="entidad">Entidad Federativa de Nacimiento</label>
+          </td>
+          <td>
+            <select name="entidad">
+              <option value="AS">Aguascalientes</option>
+              <option value="BC">Baja California</option>
+              <option value="BS">Baja California Sur</option>
+              <option value="CC">Campeche</option>
+              <option value="CS">Chiapas</option>
+              <option value="CH">Chihuahua</option>
+              <option value="CL">Coahuila</option>
+              <option value="CM">Colima</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="DG">Durango</option>
+              <option value="GT">Guanajuato</option>
+              <option value="GR">Guerrero</option>
+              <option value="HG">Hidalgo</option>
+              <option value="JC">Jalisco</option>
+              <option value="MC">Mexico</option>
+              <option value="MS">Morelos</option>
+              <option value="MN">Michoacan</option>
+              <option value="NT">Nayarit</option>
+              <option value="NL">Nuevo León</option>
+              <option value="OC">Oaxaca</option>
+              <option value="PL">Puebla</option>
+              <option value="QT">Queretaro</option>
+              <option value="QR">Quintana Roo</option>
+              <option value="SP">San Luis Potosi</option>
+              <option value="SL">Sinaloa</option>
+              <option value="SR">Sonora</option>
+              <option value="TC">Tabasco</option>
+              <option value="TS">Tamaulipas</option>
+              <option value="TL">Tlaxcala</option>
+              <option value="VZ">Veracruz</option>
+              <option value="YN">Yucatán</option>
+              <option value="ZS">Zacatecas</option>
+              <option value="NE">Extranjero</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Calcular">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form> -->
+
+    <div>
+    <iframe src="https://losimpuestos.com.mx/rfc/" frameborder="0" width="300" height="465"></iframe>
+    </div>
+</body>
+</html>
